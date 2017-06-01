@@ -26,6 +26,8 @@ Setup the following variables in `local.py`
 - `VIOLATION_POINTS_EXCEL_KEY`
   - the key of Google Sheets
 
+e.g.  
+  
 Google Sheets (https://docs.google.com/spreadsheets/d/1j44T9IkLB17Ttw3X1tgd2ua4UGvyAHU65362RjSzj_w/ )  
 the key is `1j44T9IkLB17Ttw3X1tgd2ua4UGvyAHU65362RjSzj_w`
 
