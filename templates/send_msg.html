@@ -1,0 +1,18 @@
+<form action="{{ url_for('submit') }}"" method="POST">
+	Msg to :<br>
+    {% for club in clubs %}
+    <input type="checkbox" name="msg_to" value="{{club["uid"]}}">{{club["club_name"]}}<br>
+ 	{% endfor %} 
+ 	<br>
+ 	Title<br>
+ 	<input type = "text" name = "title" /></br>
+ 	<br>
+ 	Content<br>
+    <textarea name = "content" ></textarea><br>
+    <br>
+    Image(url)<br>
+ 	<input type = "text" name = "img" /></br><br>
+ 	<input type = "submit" value = "submit" /><br>
+
+
+</form>
